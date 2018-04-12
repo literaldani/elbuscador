@@ -16,7 +16,7 @@ $.ajax({
 				var tr="<tr>";
 				var td1="<td>"+data.offers[i]["published"]+"</td>";
 				var td2="<td>"+data.offers[i]["title"]+"</td>";
-				var td3="<td><a href ="+data.offers[i]["link"]+"> Link></td></tr>";
+				var td3="<td><a href ="+data.offers[i]["link"]+"> Link</td></tr>";
 
 				$("#mytable").append(tr+td1+td2+td3); 
 
@@ -28,8 +28,18 @@ $.ajax({
 
 	});
 
+setInterval(function() {
+    cache_clear()
+  }, 30000);
+
 
 });
+
+
+function cache_clear() {
+  window.location.reload(true);
+  // window.location.reload(); use this if you do not remove cache
+}
 
 
 
