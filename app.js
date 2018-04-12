@@ -16,7 +16,7 @@ $.ajax({
 				var tr="<tr>";
 				var td1="<td>"+data.offers[i]["published"]+"</td>";
 				var td2="<td>"+data.offers[i]["title"]+"</td>";
-				var td3="<td>"+data.offers[i]["link"]+"</td></tr>";
+				var td3="<td><a href ="+data.offers[i]["link"]+"> Link></td></tr>";
 
 				$("#mytable").append(tr+td1+td2+td3); 
 
