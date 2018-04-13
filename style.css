@@ -1,3 +1,7 @@
 tr:hover{
 	background-color: red;
 }
+
+a:visited{
+	background-color: green;
+}
