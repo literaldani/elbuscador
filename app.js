@@ -39,6 +39,11 @@ setInterval(function() {
 function cache_clear() {
   window.location.reload(true);
   // window.location.reload(); use this if you do not remove cache
+
+$("tr:odd").css({
+    "background-color":"#555",
+    "color":"#fff"});
+
 }
 
 
