@@ -32,9 +32,7 @@ setInterval(function() {
     cache_clear()
   }, 30000);
 
-$("tr:odd").css({
-    "background-color":"#000",
-    "color":"#fff"});
+
 
 });
 
