@@ -3,7 +3,8 @@ $(document).ready(function() {
 
 $.ajax({
 	    type : 'GET',
-	  	url : 'https://cryptic-headland-94862.herokuapp.com/https://api.infojobs.net/api/1/offer?province=Madrid&city=Madrid&maxResults=100',
+		//https://cryptic-headland-94862.herokuapp.com/
+	  	url : 'https://cors-anywhere.herokuapp.com/https://api.infojobs.net/api/1/offer?province=Madrid&city=Madrid&maxResults=100',
 	    dataType : 'json',
 	    headers: {	'Authorization': 'Basic YjVjM2IxODg5NmQ0NDcyODk4ZjM3YjQzZTg0ZmEzZDE6L2syQTdDQUVCMCtTRW9DQWc0RGFId2Y4MmUzZ1lHck51TWdsRWVTRFdzNUtCa1kzNVg=' },
 	   	contentType: "application/json",
