@@ -31,7 +31,7 @@ $.ajax({
 
 setInterval(function() {
     cache_clear()
-  }, 30000);
+  }, 120000);
 
 
 
